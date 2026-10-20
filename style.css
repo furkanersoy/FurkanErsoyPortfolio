@@ -830,3 +830,126 @@ textarea.form-input {
         grid-template-columns: 1fr; 
     }
 }
+
+/* Portfolio refresh */
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 24px;
+    background: #1a1a1a;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+}
+
+.skill-tags .tech-name {
+    font-size: 13px;
+    padding: 7px 12px;
+}
+
+.project-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    color: var(--neon-blue);
+    background: radial-gradient(circle at center, #15313b 0, #101820 48%, #101010 100%);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.project-placeholder i {
+    font-size: 48px;
+    filter: drop-shadow(0 0 14px rgba(0, 242, 255, 0.45));
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    margin-top: 8px;
+    color: var(--neon-blue);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    color: #69d8ef;
+    text-decoration: underline;
+}
+
+.contact-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 24px;
+}
+
+.contact-actions .btn {
+    font-size: 15px;
+}
+
+.btn-outline {
+    color: var(--text-color);
+    border: 2px solid var(--border-color);
+}
+
+.btn-outline:hover {
+    color: var(--neon-blue);
+    border-color: var(--neon-blue);
+    box-shadow: 0 0 16px rgba(0, 242, 255, 0.25);
+}
+
+.navbar-list {
+    flex-wrap: wrap;
+    gap: 14px 28px;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 16px;
+    }
+
+    .main-content {
+        padding: 32px 20px 24px;
+    }
+
+    .navbar-list {
+        justify-content: center;
+        gap: 14px 20px;
+    }
+
+    .navbar-link {
+        font-size: 13px;
+    }
+
+    .article-title {
+        font-size: 30px;
+    }
+
+    .contact-actions {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
