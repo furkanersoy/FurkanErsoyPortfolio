@@ -1,407 +1,210 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furkan Ersoy | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Furkan Ersoy'un portfolyosu: uygulama güvenliği, backend geliştirme, veri analizi ve açıklanabilir yapay zekâ projeleri.">
+  <meta name="theme-color" content="#080808">
+  <title>Furkan Ersoy | Bilgisayar Mühendisi</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
-    <div id="background-part"></div>
-    <main class="main-container">
-
-        <aside class="sidebar">
-            <div class="sidebar-info">
-                <figure class="foto-box">
-                    <img src="fotograf.jpg" alt="Profil">
-                </figure>
-
-                <div class="info-content">
-                    <h1 class="name">Furkan Ersoy</h1>
-                    <p class="title">Software Developer</p>
-                </div>
-
-                <div class="separator"></div>
-
-                <ul class="contacts-list">
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <i class="far fa-envelope"></i>
-                        </div>
-                        <div class="contact-info">
-                            <p class="contact-title">Email</p>
-                            <a href="mailto:furkanersoy03@gmail.com" class="contact-link">furkanersoy03@gmail.com</a>
-                        </div>
-                    </li>
-
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <i class="far fa-calendar-alt"></i>
-                        </div>
-                        <div class="contact-info">
-                            <p class="contact-title">Doğum Tarihi</p>
-                            <time datetime="2000-01-01">10 Kasım 2003</time>
-                        </div>
-                    </li>
-
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="contact-info">
-                            <p class="contact-title">Konum</p>
-                            <address>İstanbul, Türkiye</address>
-                        </div>
-                    </li>
-                </ul>
-
-                <li class="contact-item">
-                    <div class="icon-box">
-                        <i class="fas fa-globe"></i>
-                    </div>
-
-                    <div class="contact-info">
-                        <p class="contact-title">Diller</p>
-
-                        <div class="sidebar-lang-list">
-                            <div class="sidebar-lang-item">
-                                <span class="lang-name">İngilizce</span>
-                                <span class="lang-level">(Advanced)</span>
-                            </div>
-
-                            <div class="sidebar-lang-item">
-                                <span class="lang-name">Almanca</span>
-                                <span class="lang-level">(Beginner)</span>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
-                </ul>
-
-                <div class="social-list">
-                    <a href="https://www.instagram.com/furkanersyy/"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/furkanersoyy/"><i class="fab fa-linkedin"></i></a>
-                </div>
-
-
-            </div>
-        </aside>
-
-        <div class="main-content">
-
-            <nav class="navbar">
-                <ul class="navbar-list">
-                    <li><button class="navbar-link active" data-nav-link="about">Hakkımda</button></li>
-                    <li><button class="navbar-link" data-nav-link="projects">Projeler</button></li>
-                    <li><button class="navbar-link" data-nav-link="resume">Eğitim Hayatı</button></li>
-                    <li><button class="navbar-link" data-nav-link="portfolio">Neler Yapıyorum</button></li>
-                    <li><button class="navbar-link" data-nav-link="contact">İletişim</button></li>
-                </ul>
-            </nav>
-
-            <article class="about active" data-page="about">
-                <header>
-                    <h2 class="h2 article-title">Hakkımda</h2>
-                </header>
-
-                <section class="about-text">
-                    <p>
-                        Merhaba! Ben Furkan Ersoy. Fatih Sultan Mehmet Vakıf Üniversitesi Bilgisayar Mühendisliği
-                        4.Sınıf öğrencisiyim. Java ve Python kullanarak Back-end tarafında kendimi geliştirmeye
-                        çalışıyorum.
-                        Küresel bir vizyon ve tecrübe kazanmak adına 2025 yılının güz döneminde Erasmus projesi
-                        kapsamında AKADEMIA WSB(Polonya)'de Bilgisayar Bilimi alanında eğitim aldım.
-
-
-                    </p>
-                    <p>
-                        Özellikle Siber Güvenlik alanında uzmanlaşmayı hedefliyorum ve bu alanda kendimi geliştirmek
-                        için çalışmalar yapıyorum. 2024 yılında ÖLÇSAN'da siber güvenlik ile ilgili gönüllü staj yaptım.
-                        Şu anda ise Tekpark Bilişim'de Full-Stack stajyerlik yapıyorum.
-                    </p>
-                </section>
-                <section class="skill">
-                    <h3 class="h3 service-title">Yeteneklerim</h3>
-
-                    <ul class="skill-list">
-
-                        <li class="skill-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">Cyber Security</h5>
-                            </div>
-                            <div class="skill-line">
-                                <div class="skill-line-fill" style="width: 100%;"></div>
-                            </div>
-                        </li>
-
-                        <li class="skill-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">Mobile Programming</h5>
-                            </div>
-                            <div class="skill-line">
-                                <div class="skill-line-fill" style="width: 100%;"></div>
-                            </div>
-                        </li>
-
-                        <li class="skill-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">AI Development</h5>
-                            </div>
-                            <div class="skill-line">
-                                <div class="skill-line-fill" style="width: 100%;"></div>
-                            </div>
-                        </li>
-
-                        <li class="skill-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">Web Development</h5>
-                            </div>
-                            <div class="skill-line">
-                                <div class="skill-line-fill" style="width: 100%;"></div>
-                            </div>
-                        </li>
-
-
-
-                    </ul>
-                </section>
-            </article>
-
-            <article class="projects" data-page="projects">
-                <header>
-                    <h2 class="h2 article-title">Projelerim</h2>
-                </header>
-
-                <section class="projects-grid">
-
-                    <div class="project-item">
-                        <figure class="project-img">
-                            <div class="project-item-icon-box">
-                                <i class="far fa-eye"></i>
-                            </div>
-                            <img src="pyspark.png" alt="co2emission" loading="lazy">
-                        </figure>
-
-                        <div class="project-content">
-                            <h3 class="project-title">PySpark Kullanarak Dünya Genelinde Karbondioksit Emisyonu Analizi
-                            </h3>
-                            <p class="project-category">Python & PySpark</p>
-
-                            <p class="project-summary">
-                                Bu proje, PySpark kullanarak, nüfus, GSYİH vb. özelliklerine dayanarak dünyanın dört bir
-                                yanındaki ülkelerin CO2 emisyon seviyelerini analiz etmeyi amaçlamaktadır.
-                            </p>
-
-                            <div class="project-tech-list">
-                                <span class="tech-name">Python</span>
-                                <span class="tech-name">PySpark</span>
-                                <span class="tech-name">SparkSQL</span>
-                                <span class="tech-name">SparkMLlib</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-item">
-                        <figure class="project-img">
-                            <div class="project-item-icon-box">
-                                <i class="far fa-eye"></i>
-                            </div>
-                            <img src="spotify-predict.png" alt="Spotify Predict" loading="lazy">
-                        </figure>
-
-                        <div class="project-content">
-                            <h3 class="project-title">Makine Öğrenmesi ile Spotify'da Bir Şarkının Popülerliği Tahmini
-                            </h3>
-                            <p class="project-category">Python</p>
-
-                            <p class="project-summary">
-                                Bu proje, Spotify şarkılarının popülerlik puanını (0 ile 100 arasında sürekli bir değer)
-                                tahmin etmeyi amaçlamaktadır.
-                                Bir şarkının başarısını etkileyen faktörleri anlamamızda ve analiz etmemizde yardımcı
-                                olmaktadır.
-                            </p>
-
-                            <div class="project-tech-list">
-                                <span class="tech-name">Python</span>
-                                <span class="tech-name">Scikit-Learn(Sklearn)</span>
-                                <span class="tech-name">Numpy</span>
-                                <span class="tech-name">Pandas</span>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="project-item">
-                        </figure>
-
-                        <div class="project-content">
-                            <h3 class="project-title">Veri Yapıları Kullanarak Tombala Oyunu</h3>
-                            <p class="project-category">Java</p>
-
-                            <p class="project-summary">
-                                Bu projedeki amacımız, Java programlama dilinde bağlantılı liste(LinkedList) veri yapısını kullanarak 
-                                "Tombala" olarak bilinen çok oyunculu oyunu taklit eden bir program geliştirmektir.
-                            </p>
-
-                            <div class="project-tech-list">
-                                <span class="tech-name">Java</span>
-                                <span class="tech-name">LinkedList</span>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </section>
-            </article>
-
-
-            </section>
-            </article>
-
-            <article class="resume" data-page="resume">
-                <header>
-                    <h2 class="h2 article-title">Eğitim Hayatı</h2>
-                </header>
-
-                <section class="timeline">
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <h3 class="h3">Eğitim</h3>
-                    </div>
-
-                    <ol class="timeline-list">
-
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Fatih Sultan Mehmet Vakıf Üniversitesi</h4>
-                            <span>2021 — 2026</span>
-                            <p class="timeline-text">
-                                Bilgisayar Mühendisliği (Lisans).
-                            </p>
-                        </li>
-
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Akademia WSB (Polonya)</h4>
-                            <span>2025</span>
-                            <p class="timeline-text">
-                                Erasmus
-                            </p>
-                        </li>
-
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Ümraniye Merkez Anadolu Lisesi</h4>
-                            <span>2017 — 2021</span>
-                            <p class="timeline-text">
-
-                            </p>
-                        </li>
-
-                    </ol>
-                </section>
-            </article>
-
-            <article class="portfolio" data-page="portfolio">
-                <header>
-                    <h2 class="h2 article-title">Neler Yapıyorum</h2>
-                </header>
-
-                <section class="service">
-                    <ul class="service-list">
-
-                        <li class="service-item">
-                            <div class="service-icon-box">
-                                <i class="fas fa-bug"></i>
-                            </div>
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Penetration Tests</h4>
-                                <p class="service-item-text">
-                                    HackTheBox,TryHackMe gibi siteler üzerinden sızma testleri yapıyorum.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="service-item">
-                            <div class="service-icon-box">
-                                <i class="fas fa-laptop-code"></i>
-                            </div>
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Backend Development</h4>
-                                <p class="service-item-text">
-                                    Java ve Python kullanarak Backend geliştirme yapıyorum.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="service-item">
-                            <div class="service-icon-box">
-                                <i class="fas fa-brain"></i>
-                            </div>
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">AI Training</h4>
-                                <p class="service-item-text">
-                                    Açıklanabilir Yapay Zeka üzerinde çalışmalar ve projeler yapıyorum.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="service-item">
-                            <div class="service-icon-box">
-                                <i class="fas fa-mobile-phone"></i>
-                            </div>
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Mobile Applications(Beginner)</h4>
-                                <p class="service-item-text">
-                                    Flutter-Dart kullanarak başlangıç seviyesinde mobil uygulamalar yapıyorum.
-                                </p>
-                            </div>
-                        </li>
-
-                    </ul>
-                </section>
-
-
-            </article>
-            <article class="contact" data-page="contact">
-                <header>
-                    <h2 class="h2 article-title">Bana Ulaş</h2>
-                </header>
-
-                <section class="contact-form">
-                    <form action="#" class="form" data-form>
-                        <div class="input-wrapper">
-                            <input type="text" name="fullname" class="form-input" placeholder="Adınız Soyadınız"
-                                required data-form-input>
-                            <input type="email" name="email" class="form-input" placeholder="E-posta Adresiniz" required
-                                data-form-input>
-                        </div>
-
-                        <div class="input-wrapper">
-                            <input type="number" name="phone" class="form-input" placeholder="Telefon Numaranız"
-                                data-form-input>
-                            <input type="text" name="subject" class="form-input" placeholder="Konu Başlığı"
-                                data-form-input>
-                        </div>
-
-                        <textarea name="message" class="form-input" placeholder="Mesajınız" required
-                            data-form-input></textarea>
-
-                        <button class="btn btn-filled form-btn" type="submit">
-                            <i class="far fa-paper-plane"></i>
-                            <span>Mesaj Gönder</span>
-                        </button>
-                    </form>
-                </section>
-            </article>
-
+  <div id="background-part" aria-hidden="true"></div>
+  <main class="main-container">
+    <aside class="sidebar">
+      <div class="sidebar-info">
+        <figure class="foto-box">
+          <img src="fotograf.jpg" alt="Furkan Ersoy">
+        </figure>
+        <div class="info-content">
+          <h1 class="name">Furkan Ersoy</h1>
+          <p class="title">Bilgisayar Mühendisi</p>
         </div>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
-    <script src="script.js"></script>
-</body>
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><i class="far fa-envelope" aria-hidden="true"></i></div>
+            <div class="contact-info">
+              <p class="contact-title">E-posta</p>
+              <a href="mailto:furkanersoy03@gmail.com" class="contact-link">furkanersoy03@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+            <div class="contact-info">
+              <p class="contact-title">Konum</p>
+              <address>İstanbul, Türkiye</address>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><i class="fas fa-globe" aria-hidden="true"></i></div>
+            <div class="contact-info">
+              <p class="contact-title">Diller</p>
+              <div class="sidebar-lang-list">
+                <div class="sidebar-lang-item"><span class="lang-name">Türkçe</span><span class="lang-level">Ana dil</span></div>
+                <div class="sidebar-lang-item"><span class="lang-name">İngilizce</span><span class="lang-level">İleri seviye</span></div>
+                <div class="sidebar-lang-item"><span class="lang-name">Almanca</span><span class="lang-level">Başlangıç</span></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="social-list" aria-label="Sosyal bağlantılar">
+          <a class="social-link" href="https://github.com/furkanersoy" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a class="social-link" href="https://www.linkedin.com/in/furkanersoyy/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a class="social-link" href="https://www.instagram.com/furkanersyy/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </aside>
 
+    <div class="main-content">
+      <nav class="navbar" aria-label="Ana menü">
+        <ul class="navbar-list">
+          <li><button class="navbar-link active" type="button" data-nav-link="about">Hakkımda</button></li>
+          <li><button class="navbar-link" type="button" data-nav-link="projects">Projeler</button></li>
+          <li><button class="navbar-link" type="button" data-nav-link="resume">Eğitim ve Deneyim</button></li>
+          <li><button class="navbar-link" type="button" data-nav-link="portfolio">Odak Alanlarım</button></li>
+          <li><button class="navbar-link" type="button" data-nav-link="contact">İletişim</button></li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header><h2 class="h2 article-title">Hakkımda</h2></header>
+        <section class="about-text">
+          <p>Merhaba, ben Furkan Ersoy. Fatih Sultan Mehmet Vakıf Üniversitesi Bilgisayar Mühendisliği bölümünden 2026 yılında mezun oldum. Uygulama güvenliği, backend geliştirme, veri analizi ve açıklanabilir yapay zekâ alanlarında projeler geliştiriyorum.</p>
+          <p>Çalışmalarımda güvenlik bulgularını anlaşılır ve doğrulanabilir iyileştirmelere dönüştürmeye, yazılımı güvenli ve sürdürülebilir biçimde geliştirmeye odaklanıyorum. 2025 yılında Polonya'daki Akademia WSB'de Erasmus değişim programına katıldım.</p>
+        </section>
+        <section class="skill">
+          <h3 class="h3 service-title">Teknik Yetkinlikler</h3>
+          <div class="skill-tags">
+            <span class="tech-name">Python</span><span class="tech-name">C#</span><span class="tech-name">Java</span><span class="tech-name">JavaScript</span><span class="tech-name">SQL</span>
+            <span class="tech-name">ASP.NET Core</span><span class="tech-name">Entity Framework Core</span><span class="tech-name">API ve Web Güvenliği</span><span class="tech-name">IT/OT Güvenliği</span><span class="tech-name">ISO/IEC 27001</span>
+            <span class="tech-name">PySpark</span><span class="tech-name">scikit-learn</span><span class="tech-name">Grad-CAM</span><span class="tech-name">SHAP</span><span class="tech-name">Streamlit</span><span class="tech-name">MQTT</span><span class="tech-name">Modbus</span>
+          </div>
+        </section>
+      </article>
+
+      <article class="projects" data-page="projects">
+        <header><h2 class="h2 article-title">Seçili Projeler</h2></header>
+        <section class="projects-grid">
+          <div class="project-item">
+            <figure class="project-img project-placeholder"><i class="fas fa-shield-halved" aria-hidden="true"></i><span>ScopeGuard</span></figure>
+            <div class="project-content">
+              <h3 class="project-title">ScopeGuard</h3><p class="project-category">Güvenlik aracı · Python</p>
+              <p class="project-summary">API yetkilendirme kontrolleri ile seçilmiş kaynak kodu ve yapılandırma örüntülerini inceleyen yerel komut satırı aracı. Çevrimdışı planlama ve yerel JSON, Markdown ve SARIF raporları sunar. Beta aşamasındadır.</p>
+              <div class="project-tech-list"><span class="tech-name">Python</span><span class="tech-name">API Security</span><span class="tech-name">SARIF</span></div>
+              <a class="project-link" href="https://github.com/furkanersoy/ScopeGuard" target="_blank" rel="noopener noreferrer">GitHub'da görüntüle <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="project-item">
+            <figure class="project-img project-placeholder"><i class="fas fa-brain" aria-hidden="true"></i><span>Açıklanabilir Yapay Zekâ</span></figure>
+            <div class="project-content">
+              <h3 class="project-title">Göğüs Röntgeni Sınıflandırması için Açıklanabilir Yapay Zekâ</h3><p class="project-category">Ekip bitirme projesi · Makine öğrenmesi</p>
+              <p class="project-summary">ChestMNIST üzerinde çok etiketli sınıflandırma ve model tahminlerini açıklamak için Grad-CAM ile SHAP yöntemlerini kullanan akademik prototip. Açıklamalar Streamlit arayüzünde sunulur; klinik tanı amacı taşımaz.</p>
+              <div class="project-tech-list"><span class="tech-name">Python</span><span class="tech-name">CNN</span><span class="tech-name">Grad-CAM</span><span class="tech-name">SHAP</span><span class="tech-name">Streamlit</span></div>
+            </div>
+          </div>
+          <div class="project-item">
+            <figure class="project-img project-placeholder"><i class="fas fa-table-columns" aria-hidden="true"></i><span>PocketKanban</span></figure>
+            <div class="project-content">
+              <h3 class="project-title">PocketKanban</h3><p class="project-category">Backend · C#</p>
+              <p class="project-summary">Panoları, sütunları ve kartları yönetmek için ASP.NET Core ve Entity Framework Core ile geliştirilmiş REST API.</p>
+              <div class="project-tech-list"><span class="tech-name">C#</span><span class="tech-name">ASP.NET Core</span><span class="tech-name">EF Core</span></div>
+              <a class="project-link" href="https://github.com/furkanersoy/PocketKanban" target="_blank" rel="noopener noreferrer">GitHub'da görüntüle <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="project-item">
+            <figure class="project-img"><img src="pyspark.png" alt="CO₂ emisyon analizi proje görseli" loading="lazy"></figure>
+            <div class="project-content">
+              <h3 class="project-title">CO₂ Emisyon Analizi</h3><p class="project-category">Veri analizi · PySpark</p>
+              <p class="project-summary">Enerji tüketimi ve emisyon verileri üzerinde Spark SQL toplulaştırmaları, görselleştirmeler ve sınıflandırma deneyi içeren analiz çalışması.</p>
+              <div class="project-tech-list"><span class="tech-name">Python</span><span class="tech-name">PySpark</span><span class="tech-name">Spark SQL</span></div>
+              <a class="project-link" href="https://github.com/furkanersoy/Co2_Emission_Analysis" target="_blank" rel="noopener noreferrer">GitHub'da görüntüle <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="project-item">
+            <figure class="project-img"><img src="spotify-predict.png" alt="Şarkı popülerliği tahmini proje görseli" loading="lazy"></figure>
+            <div class="project-content">
+              <h3 class="project-title">Spotify Şarkı Popülerliği Tahmini</h3><p class="project-category">Makine öğrenmesi · Python</p>
+              <p class="project-summary">Şarkı, sanatçı ve albüm metaverilerinden popülerlik tahmini için regresyon modellerini karşılaştıran ve hiperparametre ayarı yapan çalışma.</p>
+              <div class="project-tech-list"><span class="tech-name">Python</span><span class="tech-name">pandas</span><span class="tech-name">scikit-learn</span></div>
+              <a class="project-link" href="https://github.com/furkanersoy/Track_Popularite_Prediction" target="_blank" rel="noopener noreferrer">GitHub'da görüntüle <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="project-item">
+            <figure class="project-img project-placeholder"><i class="fas fa-ticket" aria-hidden="true"></i><span>TicketSale</span></figure>
+            <div class="project-content">
+              <h3 class="project-title">TicketSale</h3><p class="project-category">Web uygulaması prototipi</p>
+              <p class="project-summary">Etkinlik listeleme ve bilet akışını denemek için oluşturulmuş ASP.NET Core ve JavaScript tabanlı proje.</p>
+              <div class="project-tech-list"><span class="tech-name">C#</span><span class="tech-name">ASP.NET Core</span><span class="tech-name">JavaScript</span></div>
+              <a class="project-link" href="https://github.com/furkanersoy/TicketSale" target="_blank" rel="noopener noreferrer">GitHub'da görüntüle <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="project-item">
+            <figure class="project-img project-placeholder"><i class="fas fa-dice" aria-hidden="true"></i><span>TavlaGame</span></figure>
+            <div class="project-content">
+              <h3 class="project-title">TavlaGame</h3><p class="project-category">Ağ programlama · Python</p>
+              <p class="project-summary">İstemci-sunucu iletişimi ve soket programlama kullanılarak geliştirilen çok oyunculu tavla oyunu.</p>
+              <div class="project-tech-list"><span class="tech-name">Python</span><span class="tech-name">Sockets</span></div>
+              <a class="project-link" href="https://github.com/furkanersoy/TavlaGame" target="_blank" rel="noopener noreferrer">GitHub'da görüntüle <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <article class="resume" data-page="resume">
+        <header><h2 class="h2 article-title">Eğitim ve Deneyim</h2></header>
+        <section class="timeline">
+          <div class="title-wrapper"><div class="icon-box"><i class="fas fa-briefcase" aria-hidden="true"></i></div><h3 class="h3">Deneyim</h3></div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Siber Güvenlik ve Yazılım Stajı · Enerji Sistemleri Sektörü</h4><span>2026</span>
+              <p class="timeline-text">Yetkili uygulama, altyapı ve IT/OT güvenliği değerlendirmeleri ile ISO/IEC 27001 dokümantasyonuna katkı sağladım. Enerji yönetimi ve iş uygulamalarında backend geliştirme, güvenlik düzeltmelerini yeniden test etme, raporlama ve veri kalitesi çalışmaları yürüttüm.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Full-Stack Geliştirme Stajı · Tekpark Bilişim</h4>
+              <p class="timeline-text">Web uygulamalarının frontend ve backend geliştirme çalışmalarına katkı sağladım.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Gönüllü Siber Güvenlik Stajı · ÖLÇSAN</h4><span>2024</span>
+              <p class="timeline-text">Siber güvenlik değerlendirme ve belgelendirme süreçlerine; güvenlik testleri ve zafiyet değerlendirme çalışmalarına destek verdim.</p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper"><div class="icon-box"><i class="fas fa-graduation-cap" aria-hidden="true"></i></div><h3 class="h3">Eğitim</h3></div>
+          <ol class="timeline-list">
+            <li class="timeline-item"><h4 class="h4 timeline-item-title">Fatih Sultan Mehmet Vakıf Üniversitesi</h4><span>2021 — 2026</span><p class="timeline-text">Bilgisayar Mühendisliği Lisans Programı · Mezun</p></li>
+            <li class="timeline-item"><h4 class="h4 timeline-item-title">Akademia WSB · Polonya</h4><span>2025</span><p class="timeline-text">Erasmus değişim programı</p></li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+        <header><h2 class="h2 article-title">Odak Alanlarım</h2></header>
+        <section class="service">
+          <ul class="service-list">
+            <li class="service-item"><div class="service-icon-box"><i class="fas fa-shield-halved" aria-hidden="true"></i></div><div class="service-content-box"><h3 class="h4 service-item-title">Uygulama Güvenliği</h3><p class="service-item-text">Yetkili API, web ve mobil güvenlik değerlendirmeleri; bulguların raporlanması ve düzeltmelerin doğrulanması.</p></div></li>
+            <li class="service-item"><div class="service-icon-box"><i class="fas fa-code" aria-hidden="true"></i></div><div class="service-content-box"><h3 class="h4 service-item-title">Backend Geliştirme</h3><p class="service-item-text">ASP.NET Core ve Python ile REST API'leri, veri işleme, raporlama ve uygulama entegrasyonları.</p></div></li>
+            <li class="service-item"><div class="service-icon-box"><i class="fas fa-brain" aria-hidden="true"></i></div><div class="service-content-box"><h3 class="h4 service-item-title">Açıklanabilir Yapay Zekâ</h3><p class="service-item-text">Görüntü sınıflandırma modellerinin tahminlerini Grad-CAM ve SHAP yöntemleriyle inceleme.</p></div></li>
+            <li class="service-item"><div class="service-icon-box"><i class="fas fa-chart-line" aria-hidden="true"></i></div><div class="service-content-box"><h3 class="h4 service-item-title">Veri Analizi</h3><p class="service-item-text">Python, PySpark ve makine öğrenmesiyle veri hazırlama, analiz, model karşılaştırma ve görselleştirme.</p></div></li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="contact" data-page="contact">
+        <header><h2 class="h2 article-title">İletişim</h2></header>
+        <section class="about-text">
+          <p>İş birliği, proje veya teknik konular hakkında iletişime geçmek için e-posta ya da LinkedIn üzerinden ulaşabilirsin.</p>
+          <div class="contact-actions">
+            <a class="btn btn-filled" href="mailto:furkanersoy03@gmail.com"><i class="far fa-envelope" aria-hidden="true"></i><span>E-posta gönder</span></a>
+            <a class="btn btn-outline" href="https://www.linkedin.com/in/furkanersoyy/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn profilim</span></a>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
 </html>
