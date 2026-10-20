@@ -833,18 +833,60 @@ textarea.form-input {
 
 /* Portfolio refresh */
 .skill-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 24px;
-    background: #1a1a1a;
-    border: 1px solid var(--border-color);
-    border-radius: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
 }
 
-.skill-tags .tech-name {
-    font-size: 13px;
-    padding: 7px 12px;
+.skill-group {
+    min-width: 0;
+    padding: 20px;
+    background: linear-gradient(145deg, #1a1a1a, #141719);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.025);
+    transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.skill-group:hover {
+    transform: translateY(-3px);
+    border-color: var(--neon-blue);
+    box-shadow: 0 8px 24px rgba(0, 133, 185, 0.12);
+}
+
+.skill-group:last-child {
+    grid-column: 1 / -1;
+}
+
+.skill-group-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.skill-group-title i {
+    color: var(--neon-blue);
+    font-size: 15px;
+}
+
+.skill-group-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    min-width: 0;
+}
+
+.skill-group-items .tech-name {
+    max-width: 100%;
+    padding: 6px 10px;
+    font-size: 12px;
+    line-height: 1.35;
+    white-space: normal;
+    overflow-wrap: anywhere;
 }
 
 .project-placeholder {
@@ -953,3 +995,18 @@ textarea.form-input {
     }
 }
 
+
+
+@media (max-width: 768px) {
+    .skill-tags {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .skill-group:last-child {
+        grid-column: auto;
+    }
+
+    .skill-group {
+        padding: 18px;
+    }
+}
